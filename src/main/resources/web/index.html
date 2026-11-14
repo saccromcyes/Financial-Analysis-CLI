@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tally: ask your bank statement</title>
+  <meta name="description" content="Ask questions about your spending in plain English. A language model turns the question into a checked query; the numbers are computed exactly, never generated.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231A1D24'/><path d='M9 22V14M14 22V9M19 22V17M24 22V12' stroke='white' stroke-width='3' stroke-linecap='round'/></svg>">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-in">
+      <span class="brand"><svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--ink)"/><path d="M9 22V14M14 22V9M19 22V17M24 22V12" stroke="var(--bg)" stroke-width="3" stroke-linecap="round"/></svg>Tally</span>
+      <span class="dataset" id="dataset-label">Sample data: one year of synthetic transactions</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="ask-section" aria-labelledby="ask-h">
+      <h1 id="ask-h">Ask your bank statement anything.</h1>
+      <p class="lede">A language model reads your question and writes a query; the query is checked and run exactly, so every number below is computed, not generated.</p>
+      <form id="ask-form" class="ask">
+        <label for="question" class="sr-only">Question</label>
+        <input id="question" maxlength="300" autocomplete="off" placeholder="How much did I spend on groceries in March?" required>
+        <button type="submit" id="ask-btn">Ask</button>
+      </form>
+      <div class="examples" id="examples">
+        <button type="button">Which category did I spend the most on?</button>
+        <button type="button">What were my three largest purchases?</button>
+        <button type="button">How much money came in during March?</button>
+        <button type="button">Did I spend more on eating out or on groceries?</button>
+        <button type="button">How much do I spend on subscriptions per month?</button>
+      </div>
+
+      <div class="answer-card" id="answer" hidden aria-live="polite">
+        <p class="answer-text" id="answer-text"></p>
+        <p class="notice" id="answer-notice" hidden></p>
+        <div class="how">
+          <span class="how-label" id="how-label"></span>
+          <div class="chips" id="chips"></div>
+        </div>
+        <div id="answer-detail"></div>
+      </div>
+      <p class="error" id="ask-error" role="alert" hidden></p>
+    </section>
+
+    <section class="kpis" id="kpis" aria-label="Totals"></section>
+
+    <section class="grid">
+      <div class="panel wide">
+        <h2>Money in and out, by month</h2>
+        <div class="legend"><span><i class="sw in"></i>Income</span><span><i class="sw out"></i>Spending</span><span><i class="sw fc"></i>Forecast spending</span></div>
+        <div id="chart" class="chart" role="img"></div>
+        <p class="note">The forecast is the median of the last six months, so one big purchase doesn't skew it.</p>
+      </div>
+      <div class="panel">
+        <h2>Where it went</h2>
+        <ul class="bars" id="categories"></ul>
+      </div>
+      <div class="panel">
+        <h2>Worth a look</h2>
+        <ul class="flags" id="anomalies"></ul>
+      </div>
+      <div class="panel">
+        <h2>Recurring charges</h2>
+        <ul class="recurring" id="recurring"></ul>
+      </div>
+      <div class="panel">
+        <h2>Use your own statement</h2>
+        <p>Upload a CSV with the columns <code>date, description, category, type, amount, balance, destination</code> (type is DEBIT or CREDIT). It stays in memory on the server for this demo and is never written to disk.</p>
+        <label class="upload"><input type="file" id="file" accept=".csv,text/csv">Upload CSV</label>
+        <button type="button" class="link" id="use-sample" hidden>Back to the sample data</button>
+        <p class="upload-status" id="upload-status" role="status"></p>
+      </div>
+    </section>
+
+    <section class="panel eval" aria-labelledby="eval-h">
+      <h2 id="eval-h">How often is the question understood correctly?</h2>
+      <p>Measured on 25 questions about the sample data, each with a hand-written correct query. A question counts as right when the planner's query returns the same numbers.</p>
+      <div id="eval-body" class="eval-body"><p class="muted">Loading…</p></div>
+    </section>
+  </main>
+
+  <footer class="foot wrap">Built by <a href="https://github.com/saccromcyes">Aakarsh Dutt Sharma</a>. <a href="https://github.com/saccromcyes/Financial-Analysis-CLI">Source code</a>. Java 21 with no dependencies beyond the JDK.</footer>
+  <script src="/app.js"></script>
+</body>
+</html>
