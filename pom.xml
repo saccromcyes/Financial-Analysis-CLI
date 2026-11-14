@@ -5,22 +5,43 @@
 
     <groupId>com.example</groupId>
     <artifactId>financial-analysis</artifactId>
-    <version>1.0.0</version>
-    <name>Financial Analysis CLI</name>
-    <description>Production-ready CLI for analyzing financial transactions.</description>
+    <version>2.0.0</version>
+    <name>Financial Analysis</name>
+    <description>Analyse personal transactions from the command line or a web dashboard, and ask questions in plain English.</description>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>5.11.4</junit.version>
     </properties>
 
+    <!-- The application uses only the JDK; JUnit is the one dependency, for tests. -->
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
     <build>
+        <finalName>financial-analysis</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.2</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
+                <version>3.4.2</version>
                 <configuration>
                     <archive>
                         <manifest>

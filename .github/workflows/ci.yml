@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    name: Build and unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+      - run: mvn -B verify
+      # Fails the build if a change makes the keyword fallback misread more than 1 in 5 questions.
+      - name: Question-understanding gate (keyword rules)
+        run: java -cp target/financial-analysis.jar com.example.finance.eval.PlannerEval --no-write --fail-under 0.8
+
+  free-tier:
+    name: Fits Render free tier (512 MB, 0.1 CPU)
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the production image
+        run: docker build -t app .
+      - name: Start it inside the free-tier limits and ask a real question
+        run: bash scripts/free_tier_smoke.sh
+        env:
+          HEALTH: '/health'
+          METHOD: 'POST'
+          REQ_PATH: '/api/ask'
+          BODY: '{"question": "How much did I spend on groceries in March?"}'
+          EXPECT: '"answer":"You spent'
