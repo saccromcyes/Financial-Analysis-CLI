@@ -1,32 +1,353 @@
 date,description,category,type,amount,balance,destination
-2024-01-01,Monthly Salary,Income,CREDIT,5200.00,5200.00,Employer Inc
-2024-01-03,Payment - Rent,Housing,DEBIT,1450.00,3750.00,Landlord LLC
-2024-01-05,Payment - Grocery,Groceries,DEBIT,162.30,3587.70,Fresh Market
-2024-01-08,Payment - Transit,Transport,DEBIT,45.00,3542.70,Metro
-2024-01-12,Payment - Coffee,Food & Dining,DEBIT,4.50,3538.20,Coffee Shop
-2024-01-15,Payment - Utilities,Utilities,DEBIT,180.25,3357.95,Utility Co
-2024-01-18,Streaming Service,Entertainment,DEBIT,12.99,3344.96,StreamNow
-2024-01-20,Payment - Gym,Health,DEBIT,49.00,3295.96,City Gym
-2024-01-25,Bonus,Income,CREDIT,500.00,3795.96,Employer Inc
-2024-02-01,Monthly Salary,Income,CREDIT,5100.00,8895.96,Employer Inc
-2024-02-03,Payment - Rent,Housing,DEBIT,1450.00,7445.96,Landlord LLC
-2024-02-06,Payment - Grocery,Groceries,DEBIT,175.60,7270.36,Fresh Market
-2024-02-09,Payment - Transit,Transport,DEBIT,48.00,7222.36,Metro
-2024-02-12,Payment - Coffee,Food & Dining,DEBIT,5.25,7217.11,Coffee Shop
-2024-02-15,Payment - Utilities,Utilities,DEBIT,190.30,7026.81,Utility Co
-2024-02-18,Streaming Service,Entertainment,DEBIT,12.99,7013.82,StreamNow
-2024-02-20,Payment - Gym,Health,DEBIT,49.00,6964.82,City Gym
-2024-02-23,Payment - Flight,Travel,DEBIT,580.00,6384.82,Airline
-2024-03-01,Monthly Salary,Income,CREDIT,5150.00,11534.82,Employer Inc
-2024-03-04,Payment - Rent,Housing,DEBIT,1450.00,10084.82,Landlord LLC
-2024-03-08,Payment - Grocery,Groceries,DEBIT,182.10,9902.72,Fresh Market
-2024-03-12,Payment - Utilities,Utilities,DEBIT,192.45,9710.27,Utility Co
-2024-03-18,Streaming Service,Entertainment,DEBIT,12.99,9697.28,StreamNow
-2024-03-22,Payment - Gym,Health,DEBIT,49.00,9648.28,City Gym
-2024-04-01,Monthly Salary,Income,CREDIT,5200.00,14848.28,Employer Inc
-2024-04-03,Payment - Rent,Housing,DEBIT,1450.00,13398.28,Landlord LLC
-2024-04-06,Payment - Grocery,Groceries,DEBIT,176.80,13221.48,Fresh Market
-2024-04-11,Payment - Transit,Transport,DEBIT,52.00,13169.48,Metro
-2024-04-15,Payment - Utilities,Utilities,DEBIT,188.75,12980.73,Utility Co
-2024-04-18,Streaming Service,Entertainment,DEBIT,12.99,12967.74,StreamNow
-2024-04-22,Payment - Gym,Health,DEBIT,49.00,12918.74,City Gym
+2025-01-01,Monthly Salary,Income,CREDIT,5200.00,7600.00,Employer Inc
+2025-01-01,Payment - Grocery,Groceries,DEBIT,93.15,7506.85,Fresh Market
+2025-01-03,Payment - Rent,Housing,DEBIT,1450.00,6056.85,Landlord LLC
+2025-01-03,Payment - Transit,Transport,DEBIT,29.67,6027.18,City Cabs
+2025-01-04,Payment - Coffee,Food & Dining,DEBIT,5.14,6022.04,Bean There Cafe
+2025-01-04,Payment - Grocery,Groceries,DEBIT,78.20,5943.84,Daily Basket
+2025-01-04,Payment - Restaurant,Food & Dining,DEBIT,40.82,5903.02,Spice Route
+2025-01-04,Payment - Restaurant,Food & Dining,DEBIT,75.99,5827.03,Sushi Bar
+2025-01-05,Payment - Electricity,Utilities,DEBIT,109.04,5717.99,City Power
+2025-01-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,5702.00,StreamFlix
+2025-01-12,Subscription - Music,Subscriptions,DEBIT,10.99,5691.01,Tunely
+2025-01-13,Payment - Grocery,Groceries,DEBIT,45.26,5645.75,Fresh Market
+2025-01-13,Payment - Transit,Transport,DEBIT,21.48,5624.27,City Cabs
+2025-01-15,Payment - Coffee,Food & Dining,DEBIT,4.56,5619.71,Bean There Cafe
+2025-01-15,Subscription - Gym,Health,DEBIT,39.00,5580.71,FitLab Gym
+2025-01-17,Payment - Grocery,Groceries,DEBIT,35.05,5545.66,GreenGrocer
+2025-01-18,Payment - Transit,Transport,DEBIT,24.48,5521.18,City Cabs
+2025-01-19,Payment - Grocery,Groceries,DEBIT,59.36,5461.82,GreenGrocer
+2025-01-20,Payment - Internet,Utilities,DEBIT,59.99,5401.83,FiberNet
+2025-01-21,Payment - Coffee,Food & Dining,DEBIT,4.69,5397.14,Bean There Cafe
+2025-01-23,Payment - Coffee,Food & Dining,DEBIT,4.18,5392.96,Bean There Cafe
+2025-01-25,Payment - Coffee,Food & Dining,DEBIT,4.07,5388.89,Bean There Cafe
+2025-01-25,Payment - Grocery,Groceries,DEBIT,57.21,5331.68,GreenGrocer
+2025-01-25,Payment - Transit,Transport,DEBIT,10.14,5321.54,Metro
+2025-01-26,Payment - Coffee,Food & Dining,DEBIT,6.32,5315.22,Bean There Cafe
+2025-01-27,Payment - Grocery,Groceries,DEBIT,85.15,5230.07,Fresh Market
+2025-01-27,Payment - Transit,Transport,DEBIT,22.56,5207.51,City Cabs
+2025-01-30,Payment - Coffee,Food & Dining,DEBIT,3.59,5203.92,Bean There Cafe
+2025-02-01,Monthly Salary,Income,CREDIT,5200.00,10403.92,Employer Inc
+2025-02-01,Payment - Coffee,Food & Dining,DEBIT,4.55,10399.37,Bean There Cafe
+2025-02-01,Payment - Restaurant,Food & Dining,DEBIT,57.84,10341.53,Sushi Bar
+2025-02-03,Payment - Rent,Housing,DEBIT,1450.00,8891.53,Landlord LLC
+2025-02-05,Payment - Coffee,Food & Dining,DEBIT,5.01,8886.52,Bean There Cafe
+2025-02-05,Payment - Electricity,Utilities,DEBIT,111.12,8775.40,City Power
+2025-02-06,Payment - Transit,Transport,DEBIT,26.07,8749.33,Metro
+2025-02-07,Payment - Restaurant,Food & Dining,DEBIT,38.31,8711.02,Spice Route
+2025-02-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,8695.03,StreamFlix
+2025-02-09,Payment - Transit,Transport,DEBIT,16.53,8678.50,Metro
+2025-02-11,Payment - Grocery,Groceries,DEBIT,65.90,8612.60,Fresh Market
+2025-02-12,Payment - Grocery,Groceries,DEBIT,58.82,8553.78,Daily Basket
+2025-02-12,Subscription - Music,Subscriptions,DEBIT,10.99,8542.79,Tunely
+2025-02-13,Payment - Coffee,Food & Dining,DEBIT,5.98,8536.81,Bean There Cafe
+2025-02-14,Payment - Restaurant,Food & Dining,DEBIT,69.68,8467.13,Spice Route
+2025-02-15,Subscription - Gym,Health,DEBIT,39.00,8428.13,FitLab Gym
+2025-02-17,Payment - Coffee,Food & Dining,DEBIT,4.24,8423.89,Bean There Cafe
+2025-02-18,Payment - Coffee,Food & Dining,DEBIT,5.93,8417.96,Bean There Cafe
+2025-02-18,Payment - Coffee,Food & Dining,DEBIT,5.16,8412.80,Bean There Cafe
+2025-02-18,Payment - Grocery,Groceries,DEBIT,50.41,8362.39,GreenGrocer
+2025-02-18,Payment - Grocery,Groceries,DEBIT,63.83,8298.56,Daily Basket
+2025-02-19,Payment - Transit,Transport,DEBIT,14.43,8284.13,Metro
+2025-02-20,Payment - Grocery,Groceries,DEBIT,67.77,8216.36,GreenGrocer
+2025-02-20,Payment - Internet,Utilities,DEBIT,59.99,8156.37,FiberNet
+2025-02-21,Payment - Restaurant,Food & Dining,DEBIT,53.83,8102.54,Sushi Bar
+2025-02-24,Payment - Coffee,Food & Dining,DEBIT,6.42,8096.12,Bean There Cafe
+2025-02-24,Payment - Transit,Transport,DEBIT,11.16,8084.96,Metro
+2025-02-28,Payment - Grocery,Groceries,DEBIT,99.22,7985.74,Fresh Market
+2025-03-01,Monthly Salary,Income,CREDIT,5200.00,13185.74,Employer Inc
+2025-03-03,Payment - Grocery,Groceries,DEBIT,132.79,13052.95,Fresh Market
+2025-03-03,Payment - Rent,Housing,DEBIT,1450.00,11602.95,Landlord LLC
+2025-03-04,Payment - Transit,Transport,DEBIT,7.54,11595.41,City Cabs
+2025-03-05,Payment - Electricity,Utilities,DEBIT,92.39,11503.02,City Power
+2025-03-05,Payment - Grocery,Groceries,DEBIT,76.44,11426.58,Fresh Market
+2025-03-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,11410.59,StreamFlix
+2025-03-08,Payment - Grocery,Groceries,DEBIT,105.20,11305.39,GreenGrocer
+2025-03-08,Payment - Transit,Transport,DEBIT,22.82,11282.57,City Cabs
+2025-03-09,Payment - Coffee,Food & Dining,DEBIT,6.36,11276.21,Bean There Cafe
+2025-03-09,Payment - Transit,Transport,DEBIT,26.20,11250.01,City Cabs
+2025-03-11,Payment - Restaurant,Food & Dining,DEBIT,32.65,11217.36,Sushi Bar
+2025-03-12,Subscription - Music,Subscriptions,DEBIT,10.99,11206.37,Tunely
+2025-03-15,Subscription - Gym,Health,DEBIT,39.00,11167.37,FitLab Gym
+2025-03-17,Payment - Coffee,Food & Dining,DEBIT,4.57,11162.80,Bean There Cafe
+2025-03-17,Payment - Coffee,Food & Dining,DEBIT,4.93,11157.87,Bean There Cafe
+2025-03-17,Payment - Restaurant,Food & Dining,DEBIT,54.50,11103.37,Pasta Place
+2025-03-18,Freelance Project,Income,CREDIT,900.00,12003.37,Client Studio
+2025-03-20,Payment - Grocery,Groceries,DEBIT,113.90,11889.47,Fresh Market
+2025-03-20,Payment - Internet,Utilities,DEBIT,59.99,11829.48,FiberNet
+2025-03-20,Payment - Restaurant,Food & Dining,DEBIT,65.15,11764.33,Pasta Place
+2025-03-21,Payment - Grocery,Groceries,DEBIT,96.78,11667.55,Fresh Market
+2025-03-21,Payment - Transit,Transport,DEBIT,7.53,11660.02,Metro
+2025-03-24,Payment - Coffee,Food & Dining,DEBIT,5.64,11654.38,Bean There Cafe
+2025-03-26,Payment - Grocery,Groceries,DEBIT,109.01,11545.37,Daily Basket
+2025-03-29,Payment - Coffee,Food & Dining,DEBIT,5.77,11539.60,Bean There Cafe
+2025-03-30,Payment - Coffee,Food & Dining,DEBIT,3.95,11535.65,Bean There Cafe
+2025-03-31,Payment - Restaurant,Food & Dining,DEBIT,41.18,11494.47,Sushi Bar
+2025-04-01,Monthly Salary,Income,CREDIT,5200.00,16694.47,Employer Inc
+2025-04-02,Payment - Coffee,Food & Dining,DEBIT,4.57,16689.90,Bean There Cafe
+2025-04-03,Payment - Rent,Housing,DEBIT,1450.00,15239.90,Landlord LLC
+2025-04-03,Payment - Transit,Transport,DEBIT,24.81,15215.09,City Cabs
+2025-04-04,Payment - Restaurant,Food & Dining,DEBIT,78.87,15136.22,Pasta Place
+2025-04-05,Payment - Electricity,Utilities,DEBIT,113.00,15023.22,City Power
+2025-04-07,Payment - Coffee,Food & Dining,DEBIT,6.21,15017.01,Bean There Cafe
+2025-04-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,15001.02,StreamFlix
+2025-04-09,Payment - Coffee,Food & Dining,DEBIT,5.50,14995.52,Bean There Cafe
+2025-04-09,Payment - Grocery,Groceries,DEBIT,98.77,14896.75,Fresh Market
+2025-04-09,Payment - Transit,Transport,DEBIT,5.65,14891.10,City Cabs
+2025-04-12,Payment - Transit,Transport,DEBIT,13.99,14877.11,Metro
+2025-04-12,Subscription - Music,Subscriptions,DEBIT,10.99,14866.12,Tunely
+2025-04-15,Payment - Coffee,Food & Dining,DEBIT,5.38,14860.74,Bean There Cafe
+2025-04-15,Subscription - Gym,Health,DEBIT,39.00,14821.74,FitLab Gym
+2025-04-16,Payment - Transit,Transport,DEBIT,17.45,14804.29,Metro
+2025-04-19,Payment - Coffee,Food & Dining,DEBIT,4.80,14799.49,Bean There Cafe
+2025-04-19,Payment - Coffee,Food & Dining,DEBIT,4.90,14794.59,Bean There Cafe
+2025-04-19,Payment - Grocery,Groceries,DEBIT,97.55,14697.04,GreenGrocer
+2025-04-20,Payment - Internet,Utilities,DEBIT,59.99,14637.05,FiberNet
+2025-04-21,Payment - Coffee,Food & Dining,DEBIT,6.49,14630.56,Bean There Cafe
+2025-04-21,Payment - Grocery,Groceries,DEBIT,40.71,14589.85,GreenGrocer
+2025-04-22,Payment - Laptop,Electronics,DEBIT,1899.00,12690.85,TechHub Store
+2025-04-23,Payment - Restaurant,Food & Dining,DEBIT,82.48,12608.37,Sushi Bar
+2025-04-25,Payment - Coffee,Food & Dining,DEBIT,4.35,12604.02,Bean There Cafe
+2025-04-25,Payment - Coffee,Food & Dining,DEBIT,5.09,12598.93,Bean There Cafe
+2025-04-25,Payment - Grocery,Groceries,DEBIT,66.21,12532.72,Daily Basket
+2025-04-27,Payment - Coffee,Food & Dining,DEBIT,6.41,12526.31,Bean There Cafe
+2025-04-29,Payment - Transit,Transport,DEBIT,25.73,12500.58,City Cabs
+2025-04-30,Payment - Grocery,Groceries,DEBIT,96.35,12404.23,Daily Basket
+2025-04-30,Payment - Transit,Transport,DEBIT,23.36,12380.87,Metro
+2025-05-01,Monthly Salary,Income,CREDIT,5200.00,17580.87,Employer Inc
+2025-05-01,Payment - Restaurant,Food & Dining,DEBIT,67.84,17513.03,Pasta Place
+2025-05-02,Payment - Online Order,Shopping,DEBIT,145.23,17367.80,ShopRight
+2025-05-03,Payment - Rent,Housing,DEBIT,1450.00,15917.80,Landlord LLC
+2025-05-04,Payment - Transit,Transport,DEBIT,21.35,15896.45,City Cabs
+2025-05-05,Payment - Electricity,Utilities,DEBIT,79.09,15817.36,City Power
+2025-05-06,Payment - Coffee,Food & Dining,DEBIT,6.06,15811.30,Bean There Cafe
+2025-05-07,Payment - Transit,Transport,DEBIT,3.74,15807.56,Metro
+2025-05-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,15791.57,StreamFlix
+2025-05-08,Payment - Restaurant,Food & Dining,DEBIT,64.78,15726.79,Spice Route
+2025-05-08,Payment - Transit,Transport,DEBIT,4.08,15722.71,Metro
+2025-05-10,Payment - Grocery,Groceries,DEBIT,66.85,15655.86,GreenGrocer
+2025-05-11,Payment - Transit,Transport,DEBIT,26.47,15629.39,City Cabs
+2025-05-12,Payment - Coffee,Food & Dining,DEBIT,6.18,15623.21,Bean There Cafe
+2025-05-12,Payment - Coffee,Food & Dining,DEBIT,5.44,15617.77,Bean There Cafe
+2025-05-12,Payment - Grocery,Groceries,DEBIT,62.05,15555.72,Fresh Market
+2025-05-12,Subscription - Music,Subscriptions,DEBIT,10.99,15544.73,Tunely
+2025-05-13,Payment - Transit,Transport,DEBIT,20.37,15524.36,Metro
+2025-05-15,Payment - Grocery,Groceries,DEBIT,130.98,15393.38,Fresh Market
+2025-05-15,Subscription - Gym,Health,DEBIT,39.00,15354.38,FitLab Gym
+2025-05-16,Payment - Restaurant,Food & Dining,DEBIT,88.21,15266.17,Spice Route
+2025-05-18,Payment - Coffee,Food & Dining,DEBIT,4.49,15261.68,Bean There Cafe
+2025-05-20,Payment - Coffee,Food & Dining,DEBIT,5.95,15255.73,Bean There Cafe
+2025-05-20,Payment - Grocery,Groceries,DEBIT,114.16,15141.57,GreenGrocer
+2025-05-20,Payment - Internet,Utilities,DEBIT,59.99,15081.58,FiberNet
+2025-05-21,Payment - Grocery,Groceries,DEBIT,61.84,15019.74,Fresh Market
+2025-05-22,Payment - Grocery,Groceries,DEBIT,86.29,14933.45,Daily Basket
+2025-05-22,Payment - Grocery,Groceries,DEBIT,35.70,14897.75,Daily Basket
+2025-05-24,Payment - Transit,Transport,DEBIT,27.59,14870.16,Metro
+2025-05-28,Payment - Coffee,Food & Dining,DEBIT,3.91,14866.25,Bean There Cafe
+2025-06-01,Monthly Salary,Income,CREDIT,5200.00,20066.25,Employer Inc
+2025-06-02,Payment - Coffee,Food & Dining,DEBIT,4.11,20062.14,Bean There Cafe
+2025-06-03,Payment - Coffee,Food & Dining,DEBIT,5.83,20056.31,Bean There Cafe
+2025-06-03,Payment - Rent,Housing,DEBIT,1450.00,18606.31,Landlord LLC
+2025-06-05,Payment - Coffee,Food & Dining,DEBIT,5.52,18600.79,Bean There Cafe
+2025-06-05,Payment - Coffee,Food & Dining,DEBIT,4.44,18596.35,Bean There Cafe
+2025-06-05,Payment - Electricity,Utilities,DEBIT,71.63,18524.72,City Power
+2025-06-05,Payment - Grocery,Groceries,DEBIT,137.07,18387.65,Fresh Market
+2025-06-05,Payment - Grocery,Groceries,DEBIT,85.91,18301.74,Daily Basket
+2025-06-06,Payment - Restaurant,Food & Dining,DEBIT,61.83,18239.91,Pasta Place
+2025-06-07,Payment - Coffee,Food & Dining,DEBIT,5.41,18234.50,Bean There Cafe
+2025-06-07,Payment - Restaurant,Food & Dining,DEBIT,44.91,18189.59,Sushi Bar
+2025-06-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,18173.60,StreamFlix
+2025-06-08,Payment - Coffee,Food & Dining,DEBIT,4.00,18169.60,Bean There Cafe
+2025-06-10,Payment - Transit,Transport,DEBIT,27.34,18142.26,Metro
+2025-06-12,Subscription - Music,Subscriptions,DEBIT,10.99,18131.27,Tunely
+2025-06-14,Payment - Restaurant,Food & Dining,DEBIT,27.17,18104.10,Spice Route
+2025-06-15,Subscription - Gym,Health,DEBIT,39.00,18065.10,FitLab Gym
+2025-06-16,Payment - Transit,Transport,DEBIT,16.43,18048.67,City Cabs
+2025-06-19,Payment - Grocery,Groceries,DEBIT,133.71,17914.96,Fresh Market
+2025-06-19,Payment - Transit,Transport,DEBIT,21.79,17893.17,Metro
+2025-06-20,Payment - Coffee,Food & Dining,DEBIT,4.16,17889.01,Bean There Cafe
+2025-06-20,Payment - Internet,Utilities,DEBIT,59.99,17829.02,FiberNet
+2025-06-22,Payment - Coffee,Food & Dining,DEBIT,6.43,17822.59,Bean There Cafe
+2025-06-22,Payment - Restaurant,Food & Dining,DEBIT,33.75,17788.84,Spice Route
+2025-06-23,Payment - Coffee,Food & Dining,DEBIT,4.74,17784.10,Bean There Cafe
+2025-06-23,Payment - Grocery,Groceries,DEBIT,36.02,17748.08,Fresh Market
+2025-06-25,Payment - Transit,Transport,DEBIT,3.81,17744.27,City Cabs
+2025-06-27,Payment - Grocery,Groceries,DEBIT,118.51,17625.76,Fresh Market
+2025-06-28,Payment - Coffee,Food & Dining,DEBIT,5.16,17620.60,Bean There Cafe
+2025-06-29,Payment - Grocery,Groceries,DEBIT,50.56,17570.04,GreenGrocer
+2025-07-01,Monthly Salary,Income,CREDIT,5600.00,23170.04,Employer Inc
+2025-07-01,Payment - Grocery,Groceries,DEBIT,62.39,23107.65,Daily Basket
+2025-07-02,Payment - Coffee,Food & Dining,DEBIT,4.52,23103.13,Bean There Cafe
+2025-07-03,Payment - Rent,Housing,DEBIT,1450.00,21653.13,Landlord LLC
+2025-07-04,Payment - Grocery,Groceries,DEBIT,97.11,21556.02,Daily Basket
+2025-07-05,Payment - Electricity,Utilities,DEBIT,114.37,21441.65,City Power
+2025-07-05,Payment - Grocery,Groceries,DEBIT,120.99,21320.66,GreenGrocer
+2025-07-06,Payment - Grocery,Groceries,DEBIT,130.91,21189.75,Fresh Market
+2025-07-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,21173.76,StreamFlix
+2025-07-10,Payment - Coffee,Food & Dining,DEBIT,4.45,21169.31,Bean There Cafe
+2025-07-12,Subscription - Music,Subscriptions,DEBIT,10.99,21158.32,Tunely
+2025-07-15,Subscription - Gym,Health,DEBIT,39.00,21119.32,FitLab Gym
+2025-07-17,Payment - Coffee,Food & Dining,DEBIT,6.22,21113.10,Bean There Cafe
+2025-07-18,Payment - Restaurant,Food & Dining,DEBIT,71.40,21041.70,Pasta Place
+2025-07-19,Payment - Coffee,Food & Dining,DEBIT,4.13,21037.57,Bean There Cafe
+2025-07-19,Payment - Transit,Transport,DEBIT,29.15,21008.42,City Cabs
+2025-07-20,Payment - Internet,Utilities,DEBIT,59.99,20948.43,FiberNet
+2025-07-20,Payment - Transit,Transport,DEBIT,22.84,20925.59,Metro
+2025-07-21,Payment - Grocery,Groceries,DEBIT,102.91,20822.68,GreenGrocer
+2025-07-22,Payment - Coffee,Food & Dining,DEBIT,5.69,20816.99,Bean There Cafe
+2025-07-25,Payment - Coffee,Food & Dining,DEBIT,5.49,20811.50,Bean There Cafe
+2025-07-25,Payment - Grocery,Groceries,DEBIT,121.58,20689.92,GreenGrocer
+2025-07-28,Payment - Transit,Transport,DEBIT,24.46,20665.46,Metro
+2025-07-29,Payment - Coffee,Food & Dining,DEBIT,3.71,20661.75,Bean There Cafe
+2025-07-29,Payment - Restaurant,Food & Dining,DEBIT,67.93,20593.82,Sushi Bar
+2025-07-30,Payment - Online Order,Shopping,DEBIT,50.00,20543.82,ShopRight
+2025-07-30,Payment - Transit,Transport,DEBIT,17.62,20526.20,Metro
+2025-07-31,Payment - Coffee,Food & Dining,DEBIT,3.51,20522.69,Bean There Cafe
+2025-07-31,Payment - Transit,Transport,DEBIT,15.22,20507.47,Metro
+2025-08-01,Monthly Salary,Income,CREDIT,5600.00,26107.47,Employer Inc
+2025-08-02,Payment - Transit,Transport,DEBIT,24.47,26083.00,Metro
+2025-08-02,Payment - Transit,Transport,DEBIT,10.91,26072.09,City Cabs
+2025-08-03,Payment - Rent,Housing,DEBIT,1450.00,24622.09,Landlord LLC
+2025-08-04,Payment - Grocery,Groceries,DEBIT,64.70,24557.39,Fresh Market
+2025-08-05,Payment - Coffee,Food & Dining,DEBIT,5.89,24551.50,Bean There Cafe
+2025-08-05,Payment - Electricity,Utilities,DEBIT,122.42,24429.08,City Power
+2025-08-06,Payment - Grocery,Groceries,DEBIT,55.14,24373.94,Daily Basket
+2025-08-06,Payment - Online Order,Shopping,DEBIT,87.67,24286.27,Bookworm Books
+2025-08-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,24270.28,StreamFlix
+2025-08-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,24254.29,StreamFlix
+2025-08-09,Payment - Restaurant,Food & Dining,DEBIT,27.59,24226.70,Pasta Place
+2025-08-10,Payment - Coffee,Food & Dining,DEBIT,3.98,24222.72,Bean There Cafe
+2025-08-10,Payment - Grocery,Groceries,DEBIT,50.02,24172.70,Fresh Market
+2025-08-10,Payment - Transit,Transport,DEBIT,13.91,24158.79,Metro
+2025-08-12,Payment - Coffee,Food & Dining,DEBIT,4.30,24154.49,Bean There Cafe
+2025-08-12,Payment - Transit,Transport,DEBIT,14.79,24139.70,City Cabs
+2025-08-12,Subscription - Music,Subscriptions,DEBIT,10.99,24128.71,Tunely
+2025-08-14,Payment - Coffee,Food & Dining,DEBIT,4.93,24123.78,Bean There Cafe
+2025-08-15,Payment - Coffee,Food & Dining,DEBIT,4.82,24118.96,Bean There Cafe
+2025-08-15,Subscription - Gym,Health,DEBIT,39.00,24079.96,FitLab Gym
+2025-08-19,Payment - Coffee,Food & Dining,DEBIT,3.77,24076.19,Bean There Cafe
+2025-08-20,Payment - Internet,Utilities,DEBIT,59.99,24016.20,FiberNet
+2025-08-21,Payment - Grocery,Groceries,DEBIT,41.18,23975.02,Fresh Market
+2025-08-22,Payment - Coffee,Food & Dining,DEBIT,5.29,23969.73,Bean There Cafe
+2025-08-22,Payment - Restaurant,Food & Dining,DEBIT,40.09,23929.64,Spice Route
+2025-08-22,Payment - Restaurant,Food & Dining,DEBIT,37.97,23891.67,Spice Route
+2025-08-25,Payment - Coffee,Food & Dining,DEBIT,4.99,23886.68,Bean There Cafe
+2025-08-27,Payment - Coffee,Food & Dining,DEBIT,4.42,23882.26,Bean There Cafe
+2025-08-27,Payment - Grocery,Groceries,DEBIT,54.03,23828.23,GreenGrocer
+2025-08-27,Payment - Restaurant,Food & Dining,DEBIT,53.90,23774.33,Spice Route
+2025-08-27,Payment - Transit,Transport,DEBIT,10.81,23763.52,City Cabs
+2025-08-29,Payment - Grocery,Groceries,DEBIT,109.90,23653.62,Daily Basket
+2025-09-01,Monthly Salary,Income,CREDIT,5600.00,29253.62,Employer Inc
+2025-09-01,Payment - Restaurant,Food & Dining,DEBIT,87.07,29166.55,Pasta Place
+2025-09-02,Payment - Coffee,Food & Dining,DEBIT,4.68,29161.87,Bean There Cafe
+2025-09-03,Payment - Rent,Housing,DEBIT,1450.00,27711.87,Landlord LLC
+2025-09-03,Payment - Transit,Transport,DEBIT,17.22,27694.65,City Cabs
+2025-09-04,Payment - Coffee,Food & Dining,DEBIT,6.22,27688.43,Bean There Cafe
+2025-09-04,Payment - Transit,Transport,DEBIT,26.84,27661.59,Metro
+2025-09-05,Payment - Electricity,Utilities,DEBIT,76.26,27585.33,City Power
+2025-09-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,27569.34,StreamFlix
+2025-09-10,Payment - Grocery,Groceries,DEBIT,133.53,27435.81,Daily Basket
+2025-09-11,Payment - Coffee,Food & Dining,DEBIT,5.34,27430.47,Bean There Cafe
+2025-09-12,Payment - Online Order,Shopping,DEBIT,149.17,27281.30,Bookworm Books
+2025-09-12,Subscription - Music,Subscriptions,DEBIT,10.99,27270.31,Tunely
+2025-09-13,Payment - Coffee,Food & Dining,DEBIT,5.46,27264.85,Bean There Cafe
+2025-09-14,Payment - Coffee,Food & Dining,DEBIT,5.32,27259.53,Bean There Cafe
+2025-09-15,Payment - Coffee,Food & Dining,DEBIT,4.98,27254.55,Bean There Cafe
+2025-09-15,Subscription - Gym,Health,DEBIT,39.00,27215.55,FitLab Gym
+2025-09-17,Payment - Coffee,Food & Dining,DEBIT,4.13,27211.42,Bean There Cafe
+2025-09-18,Freelance Project,Income,CREDIT,1250.00,28461.42,Client Studio
+2025-09-18,Payment - Restaurant,Food & Dining,DEBIT,41.26,28420.16,Sushi Bar
+2025-09-19,Payment - Coffee,Food & Dining,DEBIT,3.93,28416.23,Bean There Cafe
+2025-09-19,Payment - Grocery,Groceries,DEBIT,120.40,28295.83,Daily Basket
+2025-09-19,Payment - Grocery,Groceries,DEBIT,72.77,28223.06,GreenGrocer
+2025-09-20,Payment - Internet,Utilities,DEBIT,59.99,28163.07,FiberNet
+2025-09-22,Payment - Grocery,Groceries,DEBIT,70.01,28093.06,Daily Basket
+2025-09-22,Payment - Grocery,Groceries,DEBIT,132.86,27960.20,Daily Basket
+2025-09-25,Payment - Coffee,Food & Dining,DEBIT,6.03,27954.17,Bean There Cafe
+2025-09-28,Payment - Grocery,Groceries,DEBIT,82.70,27871.47,GreenGrocer
+2025-09-29,Payment - Transit,Transport,DEBIT,27.08,27844.39,City Cabs
+2025-10-01,Monthly Salary,Income,CREDIT,5600.00,33444.39,Employer Inc
+2025-10-03,Payment - Rent,Housing,DEBIT,1450.00,31994.39,Landlord LLC
+2025-10-04,Payment - Restaurant,Food & Dining,DEBIT,28.95,31965.44,Pasta Place
+2025-10-05,Payment - Electricity,Utilities,DEBIT,120.33,31845.11,City Power
+2025-10-06,Payment - Transit,Transport,DEBIT,27.51,31817.60,City Cabs
+2025-10-07,Payment - Coffee,Food & Dining,DEBIT,4.77,31812.83,Bean There Cafe
+2025-10-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,31796.84,StreamFlix
+2025-10-09,Payment - Grocery,Groceries,DEBIT,132.03,31664.81,GreenGrocer
+2025-10-12,Payment - Grocery,Groceries,DEBIT,95.89,31568.92,GreenGrocer
+2025-10-12,Subscription - Music,Subscriptions,DEBIT,10.99,31557.93,Tunely
+2025-10-13,Payment - Coffee,Food & Dining,DEBIT,4.29,31553.64,Bean There Cafe
+2025-10-13,Payment - Grocery,Groceries,DEBIT,61.22,31492.42,GreenGrocer
+2025-10-13,Payment - Grocery,Groceries,DEBIT,112.34,31380.08,Fresh Market
+2025-10-13,Payment - Restaurant,Food & Dining,DEBIT,52.25,31327.83,Spice Route
+2025-10-15,Subscription - Gym,Health,DEBIT,39.00,31288.83,FitLab Gym
+2025-10-18,Payment - Coffee,Food & Dining,DEBIT,5.02,31283.81,Bean There Cafe
+2025-10-18,Payment - Grocery,Groceries,DEBIT,82.69,31201.12,Fresh Market
+2025-10-18,Payment - Transit,Transport,DEBIT,10.84,31190.28,City Cabs
+2025-10-19,Payment - Coffee,Food & Dining,DEBIT,6.45,31183.83,Bean There Cafe
+2025-10-20,Payment - Internet,Utilities,DEBIT,59.99,31123.84,FiberNet
+2025-10-22,Payment - Coffee,Food & Dining,DEBIT,6.30,31117.54,Bean There Cafe
+2025-10-22,Payment - Coffee,Food & Dining,DEBIT,3.62,31113.92,Bean There Cafe
+2025-10-22,Payment - Coffee,Food & Dining,DEBIT,4.06,31109.86,Bean There Cafe
+2025-10-23,Payment - Transit,Transport,DEBIT,16.56,31093.30,Metro
+2025-10-25,Payment - Restaurant,Food & Dining,DEBIT,54.35,31038.95,Sushi Bar
+2025-10-27,Payment - Restaurant,Food & Dining,DEBIT,27.28,31011.67,Sushi Bar
+2025-10-30,Payment - Coffee,Food & Dining,DEBIT,4.21,31007.46,Bean There Cafe
+2025-11-01,Monthly Salary,Income,CREDIT,5600.00,36607.46,Employer Inc
+2025-11-01,Payment - Transit,Transport,DEBIT,17.77,36589.69,Metro
+2025-11-03,Payment - Coffee,Food & Dining,DEBIT,6.35,36583.34,Bean There Cafe
+2025-11-03,Payment - Rent,Housing,DEBIT,1450.00,35133.34,Landlord LLC
+2025-11-05,Payment - Electricity,Utilities,DEBIT,89.98,35043.36,City Power
+2025-11-05,Payment - Restaurant,Food & Dining,DEBIT,58.26,34985.10,Spice Route
+2025-11-06,Payment - Coffee,Food & Dining,DEBIT,5.79,34979.31,Bean There Cafe
+2025-11-06,Payment - Grocery,Groceries,DEBIT,80.63,34898.68,Fresh Market
+2025-11-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,34882.69,StreamFlix
+2025-11-12,Subscription - Music,Subscriptions,DEBIT,10.99,34871.70,Tunely
+2025-11-14,Payment - Flight,Travel,DEBIT,742.50,34129.20,SkyWays Air
+2025-11-14,Payment - Online Order,Shopping,DEBIT,50.07,34079.13,Bookworm Books
+2025-11-15,Payment - Coffee,Food & Dining,DEBIT,5.37,34073.76,Bean There Cafe
+2025-11-15,Subscription - Gym,Health,DEBIT,39.00,34034.76,FitLab Gym
+2025-11-16,Payment - Coffee,Food & Dining,DEBIT,5.92,34028.84,Bean There Cafe
+2025-11-16,Payment - Grocery,Groceries,DEBIT,119.50,33909.34,Daily Basket
+2025-11-17,Payment - Grocery,Groceries,DEBIT,137.32,33772.02,Fresh Market
+2025-11-18,Payment - Grocery,Groceries,DEBIT,65.48,33706.54,Daily Basket
+2025-11-18,Payment - Restaurant,Food & Dining,DEBIT,81.58,33624.96,Sushi Bar
+2025-11-19,Payment - Grocery,Groceries,DEBIT,66.51,33558.45,GreenGrocer
+2025-11-19,Payment - Transit,Transport,DEBIT,8.29,33550.16,City Cabs
+2025-11-20,Payment - Internet,Utilities,DEBIT,59.99,33490.17,FiberNet
+2025-11-20,Payment - Transit,Transport,DEBIT,11.23,33478.94,Metro
+2025-11-21,Payment - Coffee,Food & Dining,DEBIT,4.76,33474.18,Bean There Cafe
+2025-11-22,Payment - Grocery,Groceries,DEBIT,101.14,33373.04,GreenGrocer
+2025-11-25,Payment - Coffee,Food & Dining,DEBIT,5.28,33367.76,Bean There Cafe
+2025-11-29,Payment - Coffee,Food & Dining,DEBIT,4.56,33363.20,Bean There Cafe
+2025-11-30,Payment - Coffee,Food & Dining,DEBIT,3.89,33359.31,Bean There Cafe
+2025-12-01,Monthly Salary,Income,CREDIT,5600.00,38959.31,Employer Inc
+2025-12-01,Payment - Restaurant,Food & Dining,DEBIT,73.16,38886.15,Sushi Bar
+2025-12-03,Payment - Rent,Housing,DEBIT,1450.00,37436.15,Landlord LLC
+2025-12-04,Payment - Coffee,Food & Dining,DEBIT,4.02,37432.13,Bean There Cafe
+2025-12-04,Payment - Grocery,Groceries,DEBIT,120.82,37311.31,GreenGrocer
+2025-12-05,Payment - Electricity,Utilities,DEBIT,87.10,37224.21,City Power
+2025-12-05,Payment - Grocery,Groceries,DEBIT,131.07,37093.14,Daily Basket
+2025-12-05,Payment - Restaurant,Food & Dining,DEBIT,64.26,37028.88,Pasta Place
+2025-12-05,Payment - Transit,Transport,DEBIT,5.90,37022.98,Metro
+2025-12-06,Payment - Restaurant,Food & Dining,DEBIT,60.04,36962.94,Pasta Place
+2025-12-07,Payment - Grocery,Groceries,DEBIT,72.94,36890.00,Fresh Market
+2025-12-07,Payment - Grocery,Groceries,DEBIT,36.29,36853.71,Daily Basket
+2025-12-07,Subscription - Streaming,Subscriptions,DEBIT,15.99,36837.72,StreamFlix
+2025-12-08,Payment - Coffee,Food & Dining,DEBIT,5.05,36832.67,Bean There Cafe
+2025-12-09,Payment - Coffee,Food & Dining,DEBIT,4.62,36828.05,Bean There Cafe
+2025-12-09,Payment - Coffee,Food & Dining,DEBIT,6.07,36821.98,Bean There Cafe
+2025-12-10,Payment - Transit,Transport,DEBIT,23.63,36798.35,City Cabs
+2025-12-12,Subscription - Music,Subscriptions,DEBIT,10.99,36787.36,Tunely
+2025-12-15,Subscription - Gym,Health,DEBIT,39.00,36748.36,FitLab Gym
+2025-12-16,Payment - Transit,Transport,DEBIT,17.69,36730.67,Metro
+2025-12-20,Payment - Coffee,Food & Dining,DEBIT,6.06,36724.61,Bean There Cafe
+2025-12-20,Payment - Gifts,Shopping,DEBIT,386.40,36338.21,ShopRight
+2025-12-20,Payment - Internet,Utilities,DEBIT,59.99,36278.22,FiberNet
+2025-12-22,Payment - Coffee,Food & Dining,DEBIT,5.57,36272.65,Bean There Cafe
+2025-12-23,Payment - Coffee,Food & Dining,DEBIT,4.84,36267.81,Bean There Cafe
+2025-12-24,Payment - Grocery,Groceries,DEBIT,68.07,36199.74,Daily Basket
+2025-12-26,Payment - Grocery,Groceries,DEBIT,71.78,36127.96,Fresh Market
+2025-12-28,Payment - Online Order,Shopping,DEBIT,137.73,35990.23,ShopRight
+2025-12-29,Payment - Coffee,Food & Dining,DEBIT,4.31,35985.92,Bean There Cafe
+2025-12-30,Payment - Coffee,Food & Dining,DEBIT,5.29,35980.63,Bean There Cafe
